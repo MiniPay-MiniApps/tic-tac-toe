@@ -4,11 +4,12 @@
   "type": "module",
   "scripts": {
     "dev": "pnpm --filter @tic-tac-toe/app dev",
-    "build": "pnpm --filter @tic-tac-toe/contract compile && pnpm --filter @tic-tac-toe/app compile",
+    "build": "pnpm --filter @tic-tac-toe/contract compile && pnpm --filter @tic-tac-toe/app build",
     "test": "pnpm --filter @tic-tac-toe/contract test && pnpm --filter @tic-tac-toe/app test",
     "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "ci": "pnpm test && pnpm lint && pnpm format && pnpm build"
   },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown",
