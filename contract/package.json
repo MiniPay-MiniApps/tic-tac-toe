@@ -1,0 +1,40 @@
+{
+  "name": "@tic-tac-toe/contract",
+  "description": "TicTacToe - Smart contracts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:celoSepolia": "hardhat ignition deploy ignition/modules/TicTacToe.ts --network celoSepolia",
+    "deploy:celo": "hardhat ignition deploy ignition/modules/TicTacToe.ts --network celo",
+    "deploy:local": "hardhat ignition deploy ignition/modules/TicTacToe.ts --network localhost",
+    "verify": "hardhat verify",
+    "lint": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "24.0.10",
+    "dotenv": "16.4.7",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "@nomicfoundation/hardhat-toolbox-viem": "5.0.1",
+    "@nomicfoundation/hardhat-ethers": "4.0.3",
+    "@nomicfoundation/hardhat-ethers-chai-matchers": "3.0.1",
+    "@nomicfoundation/hardhat-ignition": "3.0.1",
+    "@nomicfoundation/hardhat-ignition-ethers": "3.0.1",
+    "@nomicfoundation/hardhat-ignition-viem": "3.0.1",
+    "@nomicfoundation/hardhat-viem": "3.0.1",
+    "@nomicfoundation/hardhat-viem-assertions": "3.0.1",
+    "@nomicfoundation/hardhat-node-test-runner": "3.0.8",
+    "@nomicfoundation/hardhat-network-helpers": "3.0.1",
+    "@nomicfoundation/hardhat-keystore": "3.0.1",
+    "@nomicfoundation/hardhat-mocha": "3.0.1",
+    "@nomicfoundation/hardhat-typechain": "3.0.1",
+    "@nomicfoundation/hardhat-verify": "3.0.1",
+    "hardhat": "3.0.15",
+    "viem": "2.40.3",
+    "prettier": "3.6.2",
+    "typescript": "5.8.3"
+  }
+}

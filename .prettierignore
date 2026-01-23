@@ -1,0 +1,8 @@
+node_modules
+dist
+build
+coverage
+contract/artifacts
+contract/cache
+contract/types
+
