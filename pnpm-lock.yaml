@@ -10,6 +10,9 @@ importers:
       '@eslint/js':
         specifier: 9.39.2
         version: 9.39.2
+      '@tony.ganchev/eslint-plugin-header':
+        specifier: 3.2.1
+        version: 3.2.1(eslint@9.39.2(jiti@2.6.1))
       '@trivago/prettier-plugin-sort-imports':
         specifier: 6.0.2
         version: 6.0.2(prettier@3.8.0)
@@ -1934,6 +1937,14 @@ packages:
       }
     peerDependencies:
       react: ^18 || ^19
+
+  '@tony.ganchev/eslint-plugin-header@3.2.1':
+    resolution:
+      {
+        integrity: sha512-VeKrzhkWkPtr7QJhG9hFUjaWzLHQ6afCbNCyU6pBT70dOQP5AoynZVnKYCuST/cuDZ/e1ZIbJ8yg98jJ8XPTFg==,
+      }
+    peerDependencies:
+      eslint: '>=7.7.0'
 
   '@trivago/prettier-plugin-sort-imports@6.0.2':
     resolution:
@@ -6871,6 +6882,10 @@ snapshots:
     dependencies:
       '@tanstack/query-core': 5.87.4
       react: 19.2.1
+
+  '@tony.ganchev/eslint-plugin-header@3.2.1(eslint@9.39.2(jiti@2.6.1))':
+    dependencies:
+      eslint: 9.39.2(jiti@2.6.1)
 
   '@trivago/prettier-plugin-sort-imports@6.0.2(prettier@3.6.2)':
     dependencies:
