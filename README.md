@@ -1,12 +1,15 @@
 # 🎮 TicTacToe
 
 <h4 align="center">
+  <a href="https://minipay-tic-tac-toe.web.app/">Try it</a> |
   <a href="https://minipay.to">Website</a> |
   <a href="https://docs.minipay.xyz/">Documentation</a> |
   <a href="https://minipay-invite.onelink.me/kxHS/bepg96hj">Download MiniPay</a>
 </h4>
 
 A complete example Mini App for MiniPay developers demonstrating how to build a blockchain-based game with a Solidity smart contract and React frontend. This project showcases best practices for building Mini Apps for MiniPay.
+
+**Try it live:** [minipay-tic-tac-toe.web.app](https://minipay-tic-tac-toe.web.app/) — open in MiniPay or a browser to play without running the app locally.
 
 ⚙️ Built using React, wagmi, viem, Hardhat, and TypeScript.
 
